@@ -1,0 +1,60 @@
+ul {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+ul.main-content li {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    border: 0.25rem solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    background: white;
+}
+ul.main-content li h3 {
+    font-size: 1.5rem;
+}
+ul.main-content a {
+    text-decoration: none;
+    color: black;
+}
+ul.main-content li img {
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem 0;
+}
+ul.main-content li h4 {
+    font-size: 1rem;
+}
+a {
+    height: auto;
+    width: auto;
+}
+button {
+    height: 5rem;
+    width: 5rem;
+    font-size: 3rem;
+    background: hsla(130, 100%, 25%, 1);
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0.25rem solid white;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+ul.pagination {
+    display: inline-flex;
+    justify-content: center;
+}
+.page-link {
+    padding: 1rem;
+}

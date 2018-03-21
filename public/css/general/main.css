@@ -1,0 +1,52 @@
+html {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url('../../images/background-apples.png');
+}
+
+header {
+    background: linear-gradient(235deg, hsla(65, 100%, 15%, 1), hsla(130, 100%, 25%, 1));
+    color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    padding: 0 2rem;
+}
+header h2 {
+    font-family: 'Mrs Sheppards', cursive;
+    font-size: 3rem;
+    margin: 1rem;
+}
+header nav {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+header a {
+    text-decoration: none;
+}
+header h3 {
+    padding: 1rem;
+    color: white;
+}
+
+section {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 0.25rem solid black;
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 5rem;
+}
+section h2 {
+    font-size: 2rem;
+}
